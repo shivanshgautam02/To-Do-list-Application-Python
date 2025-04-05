@@ -2,6 +2,7 @@ import streamlit as st
 import os
 
 # File path setup
+# FOLDER_PATH = os.getcwd() # Autmoatic find the current path
 FOLDER_PATH = "tasks"
 FILENAME = os.path.join(FOLDER_PATH, "tasks.txt")
 
