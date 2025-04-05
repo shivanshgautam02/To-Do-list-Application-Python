@@ -1,6 +1,7 @@
 import os
 
 # Define the file path inside the "tasks" folder
+# FOLDER_PATH = os.getcwd() # Autmoatic find the current path
 FOLDER_PATH = "tasks"
 FILENAME = os.path.join(FOLDER_PATH, "tasks.txt")
 
